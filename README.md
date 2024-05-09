@@ -69,4 +69,8 @@ python sql_injection_scanner.py https://example.com
 
 ## Disclaimer
 
+<<<<<<< HEAD
 This program is provided for educational purposes only. It should not be used for malicious intent or unauthorized testing of web applications without proper permission.
+=======
+This program is provided for educational purposes only. It should not be used for malicious intent or unauthorized testing of web applications without proper permission.
+>>>>>>> ccde9e2751d9fa60814eba76ea44f61e95c69f44
