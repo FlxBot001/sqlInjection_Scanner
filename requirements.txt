@@ -11,3 +11,8 @@ transformers==4.34.0
 
 # Optional: Advanced SQL Injection Scanner API (optional)
 sqlmap-python-api==1.6.3
+
+# Additional libraries
+validators==0.18.2
+colorama==0.4.6
+pandas==2.0.3
