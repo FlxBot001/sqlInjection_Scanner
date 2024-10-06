@@ -67,7 +67,7 @@ def display_banner():
                                                                                      
 
                   SQL Injection Vulnerability Scanner
-                  Developed by 10kartik
+                  Developed by FlxBot001
                   A tool to help identify potential SQL injection vulnerabilities in web applications.
                   Use responsibly and ethically.
     {Style.RESET_ALL}

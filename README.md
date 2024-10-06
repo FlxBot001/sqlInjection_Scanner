@@ -1,6 +1,3 @@
-Here’s a comprehensive `README.md` file for your SQL Injection Scanner project. It includes all the details you've provided, along with some recommendations for clarity and organization.
-
-```markdown
 # SQL Injection Scanner
 
 ## Overview
@@ -28,8 +25,7 @@ The CIA Triad, consisting of **Confidentiality**, **Integrity**, and **Availabil
 ## Operation
 
 ### SQL Injection Scanner Diagram
-
-*(Insert Diagram Here)*
+/home/bot/Pictures/Screenshots/Screenshot from 2024-10-06 14-35-37.png
 
 ### Description
 
@@ -69,7 +65,7 @@ The SQL injection scanner utilizes various mathematical concepts and techniques 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/10kartik/sqlInjection_Scanner.git
+   git clone https://github.com/FlxBot001/sqlInjection_Scanner.git
    ```
 
 2. Navigate to the project directory:
@@ -110,17 +106,5 @@ This program is provided for educational purposes only. It should not be used fo
 
 ---
 
-For additional information, visit the project's [GitHub page](https://github.com/10kartik/sqlInjection_Scanner).
+For additional information, visit the project's [GitHub page](https://github.com/FlxBot001/sqlInjection_Scanner.
 ```
-
-### Key Points in the README:
-
-- **Project Title and Overview**: Clearly outlines the purpose of the project.
-- **Background Information**: Provides context on SQL and SQL injection vulnerabilities.
-- **Detailed Operation Description**: Steps are clearly laid out to help users understand how the program works.
-- **Mathematical Elaboration**: Explains the theoretical underpinnings of the detection mechanism.
-- **Dependencies and Installation Instructions**: Makes it easy for users to set up the project.
-- **Usage Instructions**: Guides users on how to run the scanner.
-- **Recommendations and Disclaimer**: Ensures ethical usage of the tool.
-
-Feel free to adjust any part of the README to better fit your project’s tone or specific details!
