@@ -2,7 +2,7 @@
 
 ## Overview
 
-SQL Injection Scanner is a Python program designed to detect SQL injection vulnerabilities in web applications. SQL injection is a common security vulnerability that occurs when an attacker inserts malicious SQL code into input fields, which can manipulate the database or execute unauthorized queries. This program aims to identify potential SQL injection vulnerabilities in web forms by testing various payloads and analyzing the server's response.
+**SQL Injection Scanner** is a Python program designed to detect SQL injection vulnerabilities in web applications. SQL injection is a common security vulnerability that occurs when an attacker inserts malicious SQL code into input fields, potentially manipulating the database or executing unauthorized queries. This program aims to identify potential SQL injection vulnerabilities in web forms by testing various payloads and analyzing the server's response.
 
 ## Background
 
@@ -16,7 +16,7 @@ SQL injection is one of the most common and dangerous vulnerabilities in web app
 
 ### CIA Triad
 
-The CIA Triad, consisting of Confidentiality, Integrity, and Availability, is a fundamental concept in cybersecurity. SQL injection vulnerabilities can compromise all three aspects of the CIA Triad:
+The CIA Triad, consisting of **Confidentiality**, **Integrity**, and **Availability**, is a fundamental concept in cybersecurity. SQL injection vulnerabilities can compromise all three aspects of the CIA Triad:
 
 - **Confidentiality**: Attackers can extract confidential information from databases, such as user credentials, financial data, or personal records.
 - **Integrity**: Injection attacks can modify or delete database records, leading to data corruption or unauthorized changes.
@@ -24,7 +24,8 @@ The CIA Triad, consisting of Confidentiality, Integrity, and Availability, is a 
 
 ## Operation
 
-![SQL Injection Scanner Diagram](sql_injection_scanner_diagram.png)
+### SQL Injection Scanner Diagram
+/home/bot/Pictures/Screenshots/Screenshot from 2024-10-06 14-35-37.png
 
 ### Description
 
@@ -42,7 +43,7 @@ The CIA Triad, consisting of Confidentiality, Integrity, and Availability, is a 
 
 7. **Vulnerability Detection**: If a vulnerability is detected, the program notifies the user and logs the result for further analysis. Otherwise, it concludes that no vulnerability is found.
 
-## Mathematical Elaboration
+### Mathematical Elaboration
 
 The SQL injection scanner utilizes various mathematical concepts and techniques to analyze the server's response and detect potential vulnerabilities:
 
@@ -57,20 +58,53 @@ The SQL injection scanner utilizes various mathematical concepts and techniques 
 - Python 3
 - Requests library
 - BeautifulSoup library
+- Other dependencies listed in `requirements.txt`
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/FlxBot001/sqlInjection_Scanner.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd sqlInjection_Scanner
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-1. Clone the repository to your local machine.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Run the `sql_injection_scanner.py` script with the desired URL to scan for vulnerabilities.
+Run the SQL Injection Scanner script with the desired URL to scan for vulnerabilities:
 
+```bash
 python sql_injection_scanner.py https://example.com
+```
 
+## Recommendations
+
+- **Use Responsibly**: This program is intended for educational purposes only. It should not be used for malicious intent or unauthorized testing of web applications without proper permission.
+  
+- **Environment Setup**: It's advisable to use a virtual environment (e.g., `venv` or `conda`) for installing dependencies to avoid conflicts with other projects.
+
+- **Error Handling**: Improve error handling in the code to gracefully manage potential exceptions during requests or form analysis.
+
+- **Logging**: Utilize logging effectively to maintain records of scans, which can aid in identifying patterns of vulnerabilities over time.
+
+- **Regular Updates**: Regularly update the dependency packages to mitigate any vulnerabilities in the libraries used.
 
 ## Disclaimer
 
-<<<<<<< HEAD
 This program is provided for educational purposes only. It should not be used for malicious intent or unauthorized testing of web applications without proper permission.
-=======
-This program is provided for educational purposes only. It should not be used for malicious intent or unauthorized testing of web applications without proper permission.
->>>>>>> ccde9e2751d9fa60814eba76ea44f61e95c69f44
+
+---
+
+For additional information, visit the project's [GitHub page](https://github.com/FlxBot001/sqlInjection_Scanner.
+```
