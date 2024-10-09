@@ -18,7 +18,7 @@ setup(
         "urllib3==2.0.5",
         "numpy==1.25.0",
         "scikit-learn==1.3.0",
-        "transformers==4.34.0",
+        "transformers==4.38.0",
         "sqlmap-python-api==1.6.3",
         # Add any other dependencies your project needs
     ],
